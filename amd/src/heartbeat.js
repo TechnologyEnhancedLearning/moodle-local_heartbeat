@@ -16,7 +16,7 @@ define([], function() {
 
                 fetch(keepaliveUrl, {
                     method: 'POST',
-                    credentials: 'include',
+                    //credentials: 'include',
                     headers: {
                         'Content-Type': 'application/json'
                     }
